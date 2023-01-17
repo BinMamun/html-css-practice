@@ -1,0 +1,36 @@
+.email-input,
+.name-input{
+    display: block;
+}
+
+.name-input{
+
+    margin-bottom: 6px;
+}
+.thank-message{
+    width:200px
+}
+.thank-message,.yes-button,.no-button{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.google-logo{
+    display: block;
+    width: 200px;
+    margin-left: 210px;
+    margin-bottom: 10px;
+}
+
+.srearch-input{
+    font-size: 14px;
+    display: block;
+    width:550px;
+    margin-left: 40px;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:15px;
+    border:none;
+    border-radius: 30px;
+    box-shadow: 0 0 5px rgba(148, 148, 148, 0.6);
+}
