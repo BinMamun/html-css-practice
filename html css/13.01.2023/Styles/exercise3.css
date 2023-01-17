@@ -1,0 +1,140 @@
+.uber-button{
+    background-color: black;
+    color:white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 12px;
+    margin-right:8px;
+    cursor:pointer;
+    transition: opacity .15s;
+    vertical-align: top;
+    
+}
+
+.uber-button:hover{
+    opacity: .8;
+}
+.amazon-button{
+    background-color: rgb(255, 216, 20);
+    color:black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: none;
+    border-radius: 17.5px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right:8px;
+    cursor: pointer;
+    box-shadow: 3px 3px 15px rgb(181, 181, 181);
+    transition: background-color .15s;
+    vertical-align: top;
+}
+
+.amazon-button:hover{
+    background-color:rgb(255, 191, 0)
+}
+
+.github-button{
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    vertical-align: top;        
+    font-size: 13px ;
+    font-weight: bold;
+    margin-right:8px ;
+    cursor: pointer;
+    transition:  box-shadow .15s;
+}
+
+.github-button:hover{
+    box-shadow: 0px 5px 10px rgba(0,0,0 ,.3);
+}
+.bootstrap-button{
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    vertical-align: top;
+    font-size: 13px ;
+    font-weight: bold;    
+    cursor: pointer;  
+    transition: background-color .15s; 
+}
+.bootstrap-button:hover{
+    background-color: rgb(114, 65, 187);
+}
+.download-button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(108, 117, 125);
+    border-width: 1px;
+    border-color: rgb(108, 117, 125);
+    border-radius: 3px;
+    border-style: solid;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    vertical-align: top;
+    font-size: 13px ;
+    font-weight: bold;   
+    margin-left: 5px;   
+    cursor:pointer; 
+    transition: background-color .15s, color .15s; 
+}
+
+.download-button:hover{
+    background-color:  rgb(108, 117, 125);
+    color: white;
+}
+.linkdin-button{
+    
+    background-color: rgb(24, 77, 138);
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;        
+    border: none;
+    border-radius: 19px;
+    cursor:pointer;
+    transition:  background-color .15s;
+    vertical-align: top;
+}
+.linkdin-button:hover{
+    background-color: rgb(1, 53, 113);
+}
+.save-button{
+    background-color: rgb(255, 255, 255);
+    color:  rgb(24, 77, 138);
+    font-weight: bold;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 22px;
+    padding-right: 22px;
+    vertical-align: top;
+    border-width: 1px;
+    border-radius: 19px;
+    border-color: rgb(24, 77, 138);
+    border-style: solid;
+    cursor:pointer;
+    transition: border-width .15s ,background-color .15s;
+}
+
+.save-button:hover{
+    border-width: 1.5px;
+    background-color: rgb(243, 249, 255);
+}

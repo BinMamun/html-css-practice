@@ -1,0 +1,52 @@
+
+    .amazon-home{
+        color:rgb(0, 187, 255);
+        transition: color .15s;
+    }
+    .amazon-home:hover{
+        color:rgb(1, 185, 1);
+    }
+    h3{
+        color:rgb(17, 142, 0);
+    }
+    p{
+        font-weight: 500;
+    }
+
+    .cart-button{
+        background-color: rgb(255, 208, 0);
+        border: none;
+        font-weight: 600;
+        height: 36px;
+        width:  120px;
+        border-radius: 18px;
+        margin-right: 8px;
+        cursor: pointer;
+        transition: background-color .15s ;
+    }
+
+    .cart-button:hover{
+        background-color: rgb(255, 174, 0);
+    }
+    .cart-button:active{
+        background-color: rgba(255, 174, 0, .7);
+    }
+    .buy-now-button{
+        background-color: rgb(255, 157, 0);
+        border: none;
+        font-weight: 600;
+        height: 36px;
+        width:  120px;
+        border-radius: 18px;
+        margin-right: 8px;
+        cursor: pointer;
+        transition:  background-color .15s ;
+    }
+
+    .buy-now-button:hover{
+        background-color: rgb(255, 132, 0);
+    }
+    .buy-now-button:active{
+        background-color: rgba(255, 132, 0, .7);
+    }
+
