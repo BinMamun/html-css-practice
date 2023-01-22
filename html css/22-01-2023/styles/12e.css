@@ -1,0 +1,38 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top:0 ;
+    margin-bottom:0 ;
+}
+.border-property{
+    width: 300px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(212, 212, 212);
+    border-radius: 5px;
+}
+
+.flex-box{            
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.option-bar {
+    flex: 1;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.notification {
+    background-color: rgb(52, 157, 249);
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: none;
+    border-radius: 18px;
+    color: white;
+    font-weight: 600;
+}
