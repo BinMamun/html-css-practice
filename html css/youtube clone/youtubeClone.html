@@ -6,7 +6,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Styles/youtubClone.css">
+    <link rel="stylesheet" href="Styles/video.css">
+    <link rel="stylesheet" href="Styles/Search-bar.css">
+    <link rel="stylesheet" href="Styles/generel.css">
 
     <style>
 
@@ -14,8 +16,23 @@
 </head>
 
 <body>
-    <div class="top-bar">
-        <input class="search-bar" type="text" placeholder="Search">
+    <div class="header">
+        <div class="left-side">
+            <img class="hamburger-icon" src="icons/hamburger-menu.svg" alt="">
+            <img class="youtube-logo" src="icons/youtube-logo.svg" alt="">
+        </div>
+        <div class="middle-side">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="icons/search.svg" alt="">
+            </button>
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="">
+            </button>
+        </div>
+        <div class="right-side">
+            some buttons
+        </div>
     </div>
     <div class="video-grid">
         <div class="video-preview">
@@ -110,7 +127,7 @@
                 </div>
                 <div class="video-info">
                     <p class="video-title">
-                        Anything You Can Fit In The Circle I’ll Pay For
+                        Anything You Can Fit In The Circle I'll Pay For
                     </p>
                     <p class="video-author">MrBeast</p>
                     <p class="video-stats">141M views &#183; 1 years ago</p>

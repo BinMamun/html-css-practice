@@ -1,0 +1,46 @@
+/* font-family: Roboto, Arial, sans-serif; */
+
+
+
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+
+.video-thumnail{
+    margin-bottom:10px;
+} 
+
+.thumnail{
+    width: 100%;
+}
+
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 36px 1fr;
+    column-gap: 4px;
+}
+
+.profile-pic{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.video-title{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    line-height: 20px;
+}
+.video-author,.video-stats{      
+    font-size: 12px;
+    margin-bottom: 4px;
+    color:rgb(111, 111, 111);
+}
+
+
+
+
+

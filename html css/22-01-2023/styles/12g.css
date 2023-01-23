@@ -14,14 +14,16 @@ p {
     border-color: rgb(210, 210, 210);
     padding-left: 10px;
     padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
 
 .flex-box {
-    width: 300px;
+    width: 320px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 
 .profile-info {
