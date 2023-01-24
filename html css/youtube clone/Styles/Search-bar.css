@@ -1,6 +1,5 @@
 .header{
     display: flex;
-    flex-direction: row;
     height: 55px;
     align-items: center;
     justify-content: space-between;
@@ -11,45 +10,43 @@
     align-items: center;
 }
 
+.hamburger-icon{
+    margin-left: 24px;
+    margin-right: 24px;
+    height: 24px;
+}
+.youtube-logo{
+   height: 18px;
+}
+
 .middle-side{
     display: flex;
     align-items: center;
     flex: 1;
-    max-width: 550px;
-}
-
-.right-side{
-    background-color: lightblue;
-    width: 250px;
-}
-.hamburger-icon{
-    margin-left: 24px;
-    margin-right: 24px;
-    height: 26px;
-}
-.youtube-logo{
-   height: 22px;
+    max-width: 440px;
+    margin-left: 50px;
 }
 
 .search-button{
-    width: 64px;
-    height: 39px;
+    width: 56px;
+    height: 36px;
     background-color: rgb(242, 242, 242);
     border-width:1px ;
-    border-color: rgb(166, 166, 166);
+    border-color: rgb(192, 192, 192);
     border-style:solid;
     margin-right: 8px;
     border-radius:2px;
+    margin-left: -1px;
 }
 
 .search-icon{
     margin-top: 6px;
-    height: 25px;
+    height: 22px;
 } 
 
 .voice-search-button{
-    width: 40px;
-    height: 40px;
+    width: 36px;
+    height: 36px;
     border: none;
     border-radius:20px;
     background-color: rgb(242,242, 242);
@@ -63,11 +60,46 @@
 .search-bar{
     display: flex;
     flex: 1;
-    height: 36px;
     padding-left: 10px;
+    height: 33px;
     border-width: 1px;
     border-radius: 2px;
     border-style:solid;
-    border-color:rgb(190, 190, 190);
-    box-shadow: inset 0 0 2px rgba(0 ,0 ,0 ,.2);
+    border-color:rgb(192, 192, 192);
+    box-shadow: inset 1px 1px 5px rgba(0 ,0 ,0 ,.1);
+    font-size:14px;
+    width: 0;   
+}
+
+.search-bar::placeholder{
+    font-size: 14px;
+    color: rgb(145,145,145);
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.right-side{
+    display: flex;
+    width: 180px;
+    margin-right: 24px;
+    margin-left: 24px;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.upload-icon{
+    height: 22px;
+}
+
+.youtube-apps-icon{
+    height: 22px;
+}
+
+.notification-icon{
+    height: 22px;
+}
+
+.channel-icon{
+    height: 32px;
+    border-radius: 16px;
 }
