@@ -2,7 +2,7 @@
 
 .video-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;
 }
@@ -34,12 +34,12 @@
 
 .video-info-grid{
     display: grid;
-    grid-template-columns: 36px 1fr;
+    grid-template-columns: 44px 1fr;
     column-gap: 4px;
 }
 
 .profile-pic{
-    width: 100%;
+    width: 36px;
     border-radius: 50%;
 }
 

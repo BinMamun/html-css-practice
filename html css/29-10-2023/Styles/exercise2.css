@@ -1,0 +1,36 @@
+body{
+    height: 3000px;
+}
+
+.container{
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+.denim-shirt{
+    width: 300px;
+    height: 300px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+
+    /* border-radius: 3px; */
+}
+
+.discount{
+    position: absolute;
+    top: 40px;
+    right:0;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+
+

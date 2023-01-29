@@ -5,4 +5,27 @@
     left: 0;
     bottom: 0;
     width: 70px;
+    z-index: 200;
+}
+
+.sidebar-line{
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-line:hover{
+    background-color: lightgrey;
+}
+
+.sidebar-line img{
+    height: 24px;
+    margin-bottom: 4px;
+}
+
+.sidebar-line div{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size:10px;
 }
